@@ -1,0 +1,103 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TredgateMauiTestingApp.MainPage">
+    <ContentPage.Resources>
+        <!-- Definice barev -->
+        <Color x:Key="PrimaryColor">#333366</Color>
+        <Color x:Key="OffWhiteColor">#FAF9F6</Color>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid RowSpacing="0">
+            <!-- Definice řádků -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Header s logem -->
+            <StackLayout BackgroundColor="{StaticResource PrimaryColor}"
+                         Grid.Row="0"
+                         Padding="20"
+                         VerticalOptions="Center"
+                         HorizontalOptions="FillAndExpand">
+                <Image Source="logo.png"
+                       Aspect="AspectFit"
+                       HorizontalOptions="Center"
+                       HeightRequest="100"/>
+            </StackLayout>
+
+            <!-- Obsah s přidáváním úkolů a seznamem -->
+            <StackLayout BackgroundColor="{StaticResource OffWhiteColor}"
+                         Grid.Row="1"
+                         Padding="20"
+                         Spacing="20">
+
+                <!-- Textové pole pro zadání úkolu -->
+                <Entry x:Name="TaskEntry"
+                       Placeholder="Zadejte nový úkol"
+                       AutomationId="TaskEntry"
+                       BackgroundColor="White"
+                       TextColor="Black"
+                       HeightRequest="50"
+                       Margin="0,10,0,0"/>
+
+                <!-- Tlačítko pro přidání úkolu -->
+                <Button Text="Přidat úkol"
+                        Clicked="OnAddTask"
+                        AutomationId="AddTaskButton"
+                        CornerRadius="10"
+                        HeightRequest="50"/>
+
+                <!-- Seznam úkolů -->
+                <CollectionView x:Name="TasksCollectionView"
+                                ItemsSource="{Binding Tasks}"
+                                AutomationId="TasksCollectionView">
+                    <!-- DataTemplate pro položky seznamu -->
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame CornerRadius="10"
+                                   Padding="10"
+                                   Margin="0,5"
+                                   BackgroundColor="White"
+                                   HasShadow="True">
+                                <Grid ColumnDefinitions="*,Auto,Auto"
+                                      VerticalOptions="Center">
+                                    <!-- Název úkolu -->
+                                    <Label Text="{Binding Name}"
+                                           VerticalOptions="Center"
+                                           FontSize="Medium"
+                                           Grid.Column="0"/>
+
+                                    <!-- Tlačítko Upravit -->
+                                    <Button Text="&#xf044;"
+                                            FontFamily="FontAwesomeSolid"
+                                            FontSize="24"
+                                            Clicked="OnEditTask"
+                                            CommandParameter="{Binding .}"
+                                            WidthRequest="50"
+                                            HeightRequest="50"
+                                            BackgroundColor="Transparent"
+                                            TextColor="Black"
+                                            AutomationId="EditTaskButton"/>
+
+                                    <!-- Tlačítko Odstranit -->
+                                    <Button Text="&#xf1f8;"
+                                            FontFamily="FontAwesomeSolid"
+                                            FontSize="24"
+                                            Clicked="OnDeleteTask"
+                                            CommandParameter="{Binding .}"
+                                            WidthRequest="50"
+                                            HeightRequest="50"
+                                            BackgroundColor="Transparent"
+                                            TextColor="Black"
+                                            AutomationId="DeleteTaskButton"/>
+                                </Grid>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

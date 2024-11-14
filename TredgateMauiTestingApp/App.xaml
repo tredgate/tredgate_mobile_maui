@@ -1,0 +1,35 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TredgateMauiTestingApp"
+             x:Class="TredgateMauiTestingApp.App">
+    <Application.Resources>
+        <!-- Definice primární barvy -->
+        <Color x:Key="PrimaryColor">#333366</Color>
+        <Color x:Key="OffWhiteColor">#FAF9F6</Color>
+        <!-- Definice stylů pro tlačítka -->
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor"
+                    Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="TextColor"
+                    Value="White"/>
+            <Setter Property="CornerRadius"
+                    Value="10"/>
+            <Setter Property="HeightRequest"
+                    Value="50"/>
+        </Style>
+        <!-- Definice stylů pro vstupní pole -->
+        <Style TargetType="Entry">
+            <Setter Property="BackgroundColor"
+                    Value="White"/>
+            <Setter Property="TextColor"
+                    Value="Black"/>
+            <Setter Property="PlaceholderColor"
+                    Value="Gray"/>
+            <Setter Property="HeightRequest"
+                    Value="50"/>
+            <Setter Property="Margin"
+                    Value="0,0,0,20"/>
+        </Style>
+    </Application.Resources>
+</Application>
