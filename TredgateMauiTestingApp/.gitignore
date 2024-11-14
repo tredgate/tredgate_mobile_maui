@@ -1,0 +1,74 @@
+# Build artifacts
+bin/
+obj/
+out/
+
+# Visual Studio working files
+.vs/
+*.userprefs
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code settings
+.vscode/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+
+# Rider files
+.idea/
+*.sln.iml
+
+# Resharper files
+*.DotSettings.user
+
+# Generated files
+*.g.cs
+*.g.i.cs
+
+# Xamarin/Mobile-specific
+*.apk
+*.ap_
+*.ipa
+*.aab
+*.app
+
+# Certificates and provisioning profiles
+*.cer
+*.pfx
+*.p12
+*.key
+*.mobileprovision
+
+# Application insights
+ApplicationInsights.config
+
+# Local databases
+*.db
+
+# Crash reports
+crashlog.txt
+
+# Log files
+*.log
+
+# Git attributes
+*.orig
+
+# Auto-generated UI test files
+UITest/**/Resources
+
+# JetBrains Rider
+.idea/
+
+# End of standard ignore patterns
