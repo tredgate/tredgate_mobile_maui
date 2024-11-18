@@ -1,5 +1,6 @@
 ﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sys="clr-namespace:System;assembly=System.Runtime"
              x:Class="TredgateMauiTestingApp.MainPage">
     <ContentPage.Resources>
         <!-- Definice barev -->
@@ -10,8 +11,8 @@
         <Grid RowSpacing="0">
             <!-- Definice řádků -->
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
             <!-- Header s logem -->
@@ -23,7 +24,7 @@
                 <Image Source="logo.png"
                        Aspect="AspectFit"
                        HorizontalOptions="Center"
-                       HeightRequest="100"/>
+                       HeightRequest="100" />
             </StackLayout>
 
             <!-- Obsah s přidáváním úkolů a seznamem -->
@@ -39,14 +40,42 @@
                        BackgroundColor="White"
                        TextColor="Black"
                        HeightRequest="50"
-                       Margin="0,10,0,0"/>
+                       Margin="0,10,0,0" />
+
+                <!-- Výběr data pro deadline -->
+                <DatePicker x:Name="DeadlinePicker"
+                            Date="{x:Static sys:DateTime.Today}"
+                            AutomationId="DeadlinePicker"
+                            Margin="0,10,0,0" />
+
+                <!-- Výběr priority -->
+                <Picker x:Name="PriorityPicker"
+                        Title="Vyberte prioritu"
+                        AutomationId="PriorityPicker"
+                        Margin="0,10,0,0">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Vysoká</x:String>
+                            <x:String>Střední</x:String>
+                            <x:String>Nízká</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
 
                 <!-- Tlačítko pro přidání úkolu -->
                 <Button Text="Přidat úkol"
                         Clicked="OnAddTask"
                         AutomationId="AddTaskButton"
                         CornerRadius="10"
-                        HeightRequest="50"/>
+                        HeightRequest="50" />
+
+
+                <!-- Tlačítko pro otevření WebView -->
+                <Button Text="Otevřít WebView"
+                        Clicked="OnOpenWebView"
+                        AutomationId="OpenWebViewButton"
+                        CornerRadius="10"
+                        HeightRequest="50" />
 
                 <!-- Seznam úkolů -->
                 <CollectionView x:Name="TasksCollectionView"
@@ -60,38 +89,55 @@
                                    Margin="0,5"
                                    BackgroundColor="White"
                                    HasShadow="True">
-                                <Grid ColumnDefinitions="*,Auto,Auto"
+                                <StackLayout>
+                                    <Grid ColumnDefinitions="*,Auto,Auto"
                                       VerticalOptions="Center">
                                     <!-- Název úkolu -->
                                     <Label Text="{Binding Name}"
                                            VerticalOptions="Center"
                                            FontSize="Medium"
-                                           Grid.Column="0"/>
+                                           Grid.Column="0" />
 
                                     <!-- Tlačítko Upravit -->
                                     <Button Text="&#xf044;"
                                             FontFamily="FontAwesomeSolid"
-                                            FontSize="24"
+                                            FontSize="16"
                                             Clicked="OnEditTask"
                                             CommandParameter="{Binding .}"
                                             WidthRequest="50"
                                             HeightRequest="50"
                                             BackgroundColor="Transparent"
                                             TextColor="Black"
-                                            AutomationId="EditTaskButton"/>
+                                            AutomationId="EditTaskButton"
+                                            Grid.Column="1" />
+                                    <!-- aPřidáno Grid.Column -->
 
                                     <!-- Tlačítko Odstranit -->
                                     <Button Text="&#xf1f8;"
                                             FontFamily="FontAwesomeSolid"
-                                            FontSize="24"
+                                            FontSize="16"
                                             Clicked="OnDeleteTask"
                                             CommandParameter="{Binding .}"
                                             WidthRequest="50"
                                             HeightRequest="50"
                                             BackgroundColor="Transparent"
                                             TextColor="Black"
-                                            AutomationId="DeleteTaskButton"/>
+                                            AutomationId="DeleteTaskButton"
+                                            Grid.Column="2" />
+                                    <!-- Přidáno Grid.Column -->
                                 </Grid>
+                                    <StackLayout Orientation="Horizontal"
+                                                 Spacing="10"
+                                                 Margin="0,5,0,0">
+                                        <Label Text="Do:"
+                                               FontAttributes="Bold" />
+                                        <Label Text="{Binding Deadline, StringFormat='{0:dd.MM.yyyy}'}" />
+
+                                        <Label Text="Priorita:"
+                                               FontAttributes="Bold" />
+                                        <Label Text="{Binding Priority}" />
+                                    </StackLayout>
+                                </StackLayout>
                             </Frame>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>

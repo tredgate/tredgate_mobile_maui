@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TredgateMauiTestingApp.EditTaskPage"
+             Title="Upravit úkol">
+    <ContentPage.Content>
+        <StackLayout Padding="20"
+                     Spacing="20">
+            <Entry x:Name="NameEntry"
+                   Placeholder="Název úkolu"
+                   Text="{Binding Task.Name}" />
+
+            <DatePicker x:Name="DeadlinePicker"
+                        Date="{Binding Task.Deadline}" />
+
+            <Picker x:Name="PriorityPicker"
+                    Title="Vyberte prioritu"
+                    SelectedItem="{Binding Task.Priority}">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Vysoká</x:String>
+                        <x:String>Střední</x:String>
+                        <x:String>Nízká</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Button Text="Uložit"
+                    Clicked="OnSave" />
+
+            <Button Text="Zrušit"
+                    Clicked="OnCancel" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
