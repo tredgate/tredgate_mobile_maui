@@ -1,61 +1,64 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\",
+  "WorkspaceRootPath": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\tiash\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.145\\tools\\Xamarin.Android.Resource.Designer.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\ucty\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|solutionrelative:tredgatemauitestingapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\tiash\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tiash\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\8.0.83\\buildTransitive\\netstandard2.0\\Microsoft.Maui.Controls.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\ucty\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|solutionrelative:tredgatemauitestingapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\tiash\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\edittaskpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|solutionrelative:tredgatemauitestingapp\\edittaskpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\tiash\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\edittaskpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|solutionrelative:tredgatemauitestingapp\\edittaskpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\tiash\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|solutionrelative:tredgatemauitestingapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\tiash\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\ucty\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|solutionrelative:tredgatemauitestingapp\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\tiash\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|solutionrelative:tredgatemauitestingapp\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\ucty\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|solutionrelative:tredgatemauitestingapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\tiash\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\webviewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|solutionrelative:tredgatemauitestingapp\\webviewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\ucty\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\edittaskpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|solutionrelative:tredgatemauitestingapp\\edittaskpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\tiash\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\webviewpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\ucty\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\webviewpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|solutionrelative:tredgatemauitestingapp\\webviewpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\tiash\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|solutionrelative:tredgatemauitestingapp\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\ucty\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\edittaskpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|solutionrelative:tredgatemauitestingapp\\edittaskpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\tiash\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|solutionrelative:tredgatemauitestingapp\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\tiash\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\ucty\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|solutionrelative:tredgatemauitestingapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\tiash\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\edittaskpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|solutionrelative:tredgatemauitestingapp\\edittaskpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\ucty\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|solutionrelative:tredgatemauitestingapp\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tiash\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\8.0.83\\buildTransitive\\netstandard2.0\\Microsoft.Maui.Controls.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\ucty\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|solutionrelative:tredgatemauitestingapp\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\ucty\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|solutionrelative:tredgatemauitestingapp\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\ucty\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\webviewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|solutionrelative:tredgatemauitestingapp\\webviewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|c:\\users\\ucty\\source\\repos\\tredgate_mobile_maui\\tredgatemauitestingapp\\edittaskpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{931290DC-0FFB-46E9-B082-16223A9B6BF4}|TredgateMauiTestingApp\\TredgateMauiTestingApp.csproj|solutionrelative:tredgatemauitestingapp\\edittaskpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -65,28 +68,101 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AndroidManifest.xml",
-              "DocumentMoniker": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\Platforms\\Android\\AndroidManifest.xml",
-              "RelativeDocumentMoniker": "TredgateMauiTestingApp\\Platforms\\Android\\AndroidManifest.xml",
-              "ToolTip": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\Platforms\\Android\\AndroidManifest.xml",
-              "RelativeToolTip": "TredgateMauiTestingApp\\Platforms\\Android\\AndroidManifest.xml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-11-17T23:49:43.424Z",
+              "DocumentIndex": 0,
+              "Title": "Xamarin.Android.Resource.Designer.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.145\\tools\\Xamarin.Android.Resource.Designer.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.145\\tools\\Xamarin.Android.Resource.Designer.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.145\\tools\\Xamarin.Android.Resource.Designer.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.145\\tools\\Xamarin.Android.Resource.Designer.targets",
+              "ViewState": "AgIAADAAAAAAAAAAAAAmwDkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-11-19T19:34:29.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "TredgateMauiTestingApp\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\AppShell.xaml",
+              "RelativeToolTip": "TredgateMauiTestingApp\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-17T22:56:55.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\TaskItem.cs",
+              "RelativeDocumentMoniker": "TredgateMauiTestingApp\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\TaskItem.cs",
+              "RelativeToolTip": "TredgateMauiTestingApp\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T23:54:32.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "TredgateMauiTestingApp\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\MainPage.xaml.cs",
+              "RelativeToolTip": "TredgateMauiTestingApp\\MainPage.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwDEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T23:57:19.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditTaskPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\EditTaskPage.xaml.cs",
+              "RelativeDocumentMoniker": "TredgateMauiTestingApp\\EditTaskPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\EditTaskPage.xaml.cs",
+              "RelativeToolTip": "TredgateMauiTestingApp\\EditTaskPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T23:07:38.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WebViewPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\WebViewPage.xaml.cs",
+              "RelativeDocumentMoniker": "TredgateMauiTestingApp\\WebViewPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\WebViewPage.xaml.cs",
+              "RelativeToolTip": "TredgateMauiTestingApp\\WebViewPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T23:06:21.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "TredgateMauiTestingApp\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\MainPage.xaml",
+              "RelativeToolTip": "TredgateMauiTestingApp\\MainPage.xaml",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAJMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-17T22:57:38.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "EditTaskPage.xaml",
-              "DocumentMoniker": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\EditTaskPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\EditTaskPage.xaml",
               "RelativeDocumentMoniker": "TredgateMauiTestingApp\\EditTaskPage.xaml",
-              "ToolTip": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\EditTaskPage.xaml",
+              "ToolTip": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\EditTaskPage.xaml",
               "RelativeToolTip": "TredgateMauiTestingApp\\EditTaskPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -95,128 +171,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\AppShell.xaml",
-              "RelativeDocumentMoniker": "TredgateMauiTestingApp\\AppShell.xaml",
-              "ToolTip": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\AppShell.xaml",
-              "RelativeToolTip": "TredgateMauiTestingApp\\AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-17T22:56:55.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TaskItem.cs",
-              "DocumentMoniker": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\TaskItem.cs",
-              "RelativeDocumentMoniker": "TredgateMauiTestingApp\\TaskItem.cs",
-              "ToolTip": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\TaskItem.cs",
-              "RelativeToolTip": "TredgateMauiTestingApp\\TaskItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T23:54:32.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "TredgateMauiTestingApp\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\MainPage.xaml.cs",
-              "RelativeToolTip": "TredgateMauiTestingApp\\MainPage.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAwwDEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T23:57:19.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EditTaskPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\EditTaskPage.xaml.cs",
-              "RelativeDocumentMoniker": "TredgateMauiTestingApp\\EditTaskPage.xaml.cs",
-              "ToolTip": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\EditTaskPage.xaml.cs",
-              "RelativeToolTip": "TredgateMauiTestingApp\\EditTaskPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T23:07:38.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WebViewPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\WebViewPage.xaml.cs",
-              "RelativeDocumentMoniker": "TredgateMauiTestingApp\\WebViewPage.xaml.cs",
-              "ToolTip": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\WebViewPage.xaml.cs",
-              "RelativeToolTip": "TredgateMauiTestingApp\\WebViewPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T23:06:21.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\App.xaml",
               "RelativeDocumentMoniker": "TredgateMauiTestingApp\\App.xaml",
-              "ToolTip": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\App.xaml",
+              "ToolTip": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\App.xaml",
               "RelativeToolTip": "TredgateMauiTestingApp\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-17T23:45:03.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T23:45:03.493Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "MainActivity.cs",
-              "DocumentMoniker": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\Platforms\\Android\\MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\Platforms\\Android\\MainActivity.cs",
               "RelativeDocumentMoniker": "TredgateMauiTestingApp\\Platforms\\Android\\MainActivity.cs",
-              "ToolTip": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\Platforms\\Android\\MainActivity.cs",
               "RelativeToolTip": "TredgateMauiTestingApp\\Platforms\\Android\\MainActivity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T23:45:41.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T23:45:41.287Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\MainPage.xaml",
-              "RelativeDocumentMoniker": "TredgateMauiTestingApp\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\MainPage.xaml",
-              "RelativeToolTip": "TredgateMauiTestingApp\\MainPage.xaml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAAIAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-17T22:57:38.367Z",
-              "EditorCaption": ""
+              "DocumentIndex": 11,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "TredgateMauiTestingApp\\Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "TredgateMauiTestingApp\\Platforms\\Android\\AndroidManifest.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-11-17T23:49:43.424Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "MainApplication.cs",
-              "DocumentMoniker": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\Platforms\\Android\\MainApplication.cs",
+              "DocumentMoniker": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\Platforms\\Android\\MainApplication.cs",
               "RelativeDocumentMoniker": "TredgateMauiTestingApp\\Platforms\\Android\\MainApplication.cs",
-              "ToolTip": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\Platforms\\Android\\MainApplication.cs",
+              "ToolTip": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\Platforms\\Android\\MainApplication.cs",
               "RelativeToolTip": "TredgateMauiTestingApp\\Platforms\\Android\\MainApplication.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T23:45:42.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T23:45:42.793Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "WebViewPage.xaml",
-              "DocumentMoniker": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\WebViewPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\WebViewPage.xaml",
               "RelativeDocumentMoniker": "TredgateMauiTestingApp\\WebViewPage.xaml",
-              "ToolTip": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\WebViewPage.xaml",
+              "ToolTip": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\WebViewPage.xaml",
               "RelativeToolTip": "TredgateMauiTestingApp\\WebViewPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -225,29 +232,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
               "Title": "Microsoft.Maui.Controls.targets",
               "DocumentMoniker": "C:\\Users\\tiash\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\8.0.83\\buildTransitive\\netstandard2.0\\Microsoft.Maui.Controls.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\8.0.83\\buildTransitive\\netstandard2.0\\Microsoft.Maui.Controls.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\tiash\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\8.0.83\\buildTransitive\\netstandard2.0\\Microsoft.Maui.Controls.targets",
               "ToolTip": "C:\\Users\\tiash\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\8.0.83\\buildTransitive\\netstandard2.0\\Microsoft.Maui.Controls.targets",
-              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\8.0.83\\buildTransitive\\netstandard2.0\\Microsoft.Maui.Controls.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\tiash\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\8.0.83\\buildTransitive\\netstandard2.0\\Microsoft.Maui.Controls.targets",
               "ViewState": "AgIAAIsAAAAAAAAAAAAMwJ0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-11-17T22:56:22.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T22:56:22.646Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "EditTaskPage.xaml",
-              "DocumentMoniker": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\EditTaskPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\EditTaskPage.xaml",
               "RelativeDocumentMoniker": "TredgateMauiTestingApp\\EditTaskPage.xaml",
-              "ToolTip": "C:\\Users\\tiash\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\EditTaskPage.xaml",
+              "ToolTip": "C:\\Users\\ucty\\source\\repos\\tredgate_mobile_maui\\TredgateMauiTestingApp\\EditTaskPage.xaml",
               "RelativeToolTip": "TredgateMauiTestingApp\\EditTaskPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-17T22:57:53.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T22:57:53.855Z"
             }
           ]
         }

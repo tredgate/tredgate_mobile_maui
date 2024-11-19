@@ -28,13 +28,14 @@
             </StackLayout>
 
             <!-- Obsah s přidáváním úkolů a seznamem -->
-            <StackLayout BackgroundColor="{StaticResource OffWhiteColor}"
+            <ScrollView BackgroundColor="{StaticResource OffWhiteColor}" Grid.Row="1">
+                <StackLayout BackgroundColor="{StaticResource OffWhiteColor}"
                          Grid.Row="1"
                          Padding="20"
                          Spacing="20">
 
-                <!-- Textové pole pro zadání úkolu -->
-                <Entry x:Name="TaskEntry"
+                    <!-- Textové pole pro zadání úkolu -->
+                    <Entry x:Name="TaskEntry"
                        Placeholder="Zadejte nový úkol"
                        AutomationId="TaskEntry"
                        BackgroundColor="White"
@@ -42,64 +43,64 @@
                        HeightRequest="50"
                        Margin="0,10,0,0" />
 
-                <!-- Výběr data pro deadline -->
-                <DatePicker x:Name="DeadlinePicker"
+                    <!-- Výběr data pro deadline -->
+                    <DatePicker x:Name="DeadlinePicker"
                             Date="{x:Static sys:DateTime.Today}"
                             AutomationId="DeadlinePicker"
                             Margin="0,10,0,0" />
 
-                <!-- Výběr priority -->
-                <Picker x:Name="PriorityPicker"
+                    <!-- Výběr priority -->
+                    <Picker x:Name="PriorityPicker"
                         Title="Vyberte prioritu"
                         AutomationId="PriorityPicker"
                         Margin="0,10,0,0">
-                    <Picker.ItemsSource>
-                        <x:Array Type="{x:Type x:String}">
-                            <x:String>Vysoká</x:String>
-                            <x:String>Střední</x:String>
-                            <x:String>Nízká</x:String>
-                        </x:Array>
-                    </Picker.ItemsSource>
-                </Picker>
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Vysoká</x:String>
+                                <x:String>Střední</x:String>
+                                <x:String>Nízká</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
 
-                <!-- Tlačítko pro přidání úkolu -->
-                <Button Text="Přidat úkol"
+                    <!-- Tlačítko pro přidání úkolu -->
+                    <Button Text="Přidat úkol"
                         Clicked="OnAddTask"
                         AutomationId="AddTaskButton"
                         CornerRadius="10"
                         HeightRequest="50" />
 
 
-                <!-- Tlačítko pro otevření WebView -->
-                <Button Text="Otevřít WebView"
+                    <!-- Tlačítko pro otevření WebView -->
+                    <Button Text="Otevřít WebView"
                         Clicked="OnOpenWebView"
                         AutomationId="OpenWebViewButton"
                         CornerRadius="10"
                         HeightRequest="50" />
 
-                <!-- Seznam úkolů -->
-                <CollectionView x:Name="TasksCollectionView"
+                    <!-- Seznam úkolů -->
+                    <CollectionView x:Name="TasksCollectionView"
                                 ItemsSource="{Binding Tasks}"
                                 AutomationId="TasksCollectionView">
-                    <!-- DataTemplate pro položky seznamu -->
-                    <CollectionView.ItemTemplate>
-                        <DataTemplate>
-                            <Frame CornerRadius="10"
+                        <!-- DataTemplate pro položky seznamu -->
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Frame CornerRadius="10"
                                    Padding="10"
                                    Margin="0,5"
                                    BackgroundColor="White"
                                    HasShadow="True">
-                                <StackLayout>
-                                    <Grid ColumnDefinitions="*,Auto,Auto"
+                                    <StackLayout>
+                                        <Grid ColumnDefinitions="*,Auto,Auto"
                                       VerticalOptions="Center">
-                                    <!-- Název úkolu -->
-                                    <Label Text="{Binding Name}"
+                                            <!-- Název úkolu -->
+                                            <Label Text="{Binding Name}"
                                            VerticalOptions="Center"
                                            FontSize="Medium"
                                            Grid.Column="0" />
 
-                                    <!-- Tlačítko Upravit -->
-                                    <Button Text="&#xf044;"
+                                            <!-- Tlačítko Upravit -->
+                                            <Button Text="&#xf044;"
                                             FontFamily="FontAwesomeSolid"
                                             FontSize="16"
                                             Clicked="OnEditTask"
@@ -110,10 +111,10 @@
                                             TextColor="Black"
                                             AutomationId="EditTaskButton"
                                             Grid.Column="1" />
-                                    <!-- aPřidáno Grid.Column -->
+                                            <!-- aPřidáno Grid.Column -->
 
-                                    <!-- Tlačítko Odstranit -->
-                                    <Button Text="&#xf1f8;"
+                                            <!-- Tlačítko Odstranit -->
+                                            <Button Text="&#xf1f8;"
                                             FontFamily="FontAwesomeSolid"
                                             FontSize="16"
                                             Clicked="OnDeleteTask"
@@ -124,26 +125,27 @@
                                             TextColor="Black"
                                             AutomationId="DeleteTaskButton"
                                             Grid.Column="2" />
-                                    <!-- Přidáno Grid.Column -->
-                                </Grid>
-                                    <StackLayout Orientation="Horizontal"
+                                            <!-- Přidáno Grid.Column -->
+                                        </Grid>
+                                        <StackLayout Orientation="Horizontal"
                                                  Spacing="10"
                                                  Margin="0,5,0,0">
-                                        <Label Text="Do:"
+                                            <Label Text="Do:"
                                                FontAttributes="Bold" />
-                                        <Label Text="{Binding Deadline, StringFormat='{0:dd.MM.yyyy}'}" />
+                                            <Label Text="{Binding Deadline, StringFormat='{0:dd.MM.yyyy}'}" />
 
-                                        <Label Text="Priorita:"
+                                            <Label Text="Priorita:"
                                                FontAttributes="Bold" />
-                                        <Label Text="{Binding Priority}" />
+                                            <Label Text="{Binding Priority}" />
+                                        </StackLayout>
                                     </StackLayout>
-                                </StackLayout>
-                            </Frame>
-                        </DataTemplate>
-                    </CollectionView.ItemTemplate>
-                </CollectionView>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
 
-            </StackLayout>
+                </StackLayout>
+            </ScrollView>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
